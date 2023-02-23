@@ -1,0 +1,689 @@
+pre swap av[i] is : |d|
+pre swap av[j] is : |b|
+post swap av[i] is : |b|
+post swap av[j] is : |d|
+pre swap av[i] is : |b|
+pre swap av[j] is : |a|
+post swap av[i] is : |a|
+post swap av[j] is : |b|
+pre swap av[i] is : |a|
+pre swap av[j] is : |7|
+post swap av[i] is : |7|
+post swap av[j] is : |a|
+pre swap av[i] is : |7|
+pre swap av[j] is : |4|
+post swap av[i] is : |4|
+post swap av[j] is : |7|
+pre swap av[i] is : |4|
+pre swap av[j] is : |2|
+post swap av[i] is : |2|
+post swap av[j] is : |4|
+IM OUT /// av[i] is : |2|
+pre swap av[i] is : |f|
+pre swap av[j] is : |d|
+post swap av[i] is : |d|
+post swap av[j] is : |f|
+pre swap av[i] is : |d|
+pre swap av[j] is : |b|
+post swap av[i] is : |b|
+post swap av[j] is : |d|
+pre swap av[i] is : |b|
+pre swap av[j] is : |a|
+post swap av[i] is : |a|
+post swap av[j] is : |b|
+pre swap av[i] is : |a|
+pre swap av[j] is : |8|
+post swap av[i] is : |8|
+post swap av[j] is : |a|
+pre swap av[i] is : |8|
+pre swap av[j] is : |7|
+post swap av[i] is : |7|
+post swap av[j] is : |8|
+pre swap av[i] is : |7|
+pre swap av[j] is : |6|
+post swap av[i] is : |6|
+post swap av[j] is : |7|
+pre swap av[i] is : |6|
+pre swap av[j] is : |5|
+post swap av[i] is : |5|
+post swap av[j] is : |6|
+pre swap av[i] is : |5|
+pre swap av[j] is : |4|
+post swap av[i] is : |4|
+post swap av[j] is : |5|
+IM OUT /// av[i] is : |4|
+bonjour
+pre swap av[i] is : |f|
+pre swap av[j] is : |e|
+post swap av[i] is : |e|
+post swap av[j] is : |f|
+pre swap av[i] is : |e|
+pre swap av[j] is : |d|
+post swap av[i] is : |d|
+post swap av[j] is : |e|
+pre swap av[i] is : |d|
+pre swap av[j] is : |b|
+post swap av[i] is : |b|
+post swap av[j] is : |d|
+pre swap av[i] is : |b|
+pre swap av[j] is : |a|
+post swap av[i] is : |a|
+post swap av[j] is : |b|
+pre swap av[i] is : |a|
+pre swap av[j] is : |9|
+post swap av[i] is : |9|
+post swap av[j] is : |a|
+pre swap av[i] is : |9|
+pre swap av[j] is : |8|
+post swap av[i] is : |8|
+post swap av[j] is : |9|
+pre swap av[i] is : |8|
+pre swap av[j] is : |7|
+post swap av[i] is : |7|
+post swap av[j] is : |8|
+pre swap av[i] is : |7|
+pre swap av[j] is : |6|
+post swap av[i] is : |6|
+post swap av[j] is : |7|
+pre swap av[i] is : |6|
+pre swap av[j] is : |5|
+post swap av[i] is : |5|
+post swap av[j] is : |6|
+IM OUT /// av[i] is : |5|
+bonjour
+pre swap av[i] is : |fh|
+pre swap av[j] is : |f|
+post swap av[i] is : |f|
+post swap av[j] is : |fh|
+pre swap av[i] is : |f|
+pre swap av[j] is : |e|
+post swap av[i] is : |e|
+post swap av[j] is : |f|
+pre swap av[i] is : |e|
+pre swap av[j] is : |d|
+post swap av[i] is : |d|
+post swap av[j] is : |e|
+pre swap av[i] is : |d|
+pre swap av[j] is : |b|
+post swap av[i] is : |b|
+post swap av[j] is : |d|
+pre swap av[i] is : |b|
+pre swap av[j] is : |a|
+post swap av[i] is : |a|
+post swap av[j] is : |b|
+pre swap av[i] is : |a|
+pre swap av[j] is : |9|
+post swap av[i] is : |9|
+post swap av[j] is : |a|
+pre swap av[i] is : |9|
+pre swap av[j] is : |8|
+post swap av[i] is : |8|
+post swap av[j] is : |9|
+pre swap av[i] is : |8|
+pre swap av[j] is : |7|
+post swap av[i] is : |7|
+post swap av[j] is : |8|
+pre swap av[i] is : |7|
+pre swap av[j] is : |6|
+post swap av[i] is : |6|
+post swap av[j] is : |7|
+IM OUT /// av[i] is : |6|
+bonjour
+pre swap av[i] is : |fh|
+pre swap av[j] is : |f|
+post swap av[i] is : |f|
+post swap av[j] is : |fh|
+bonjour
+pre swap av[i] is : |f|
+pre swap av[j] is : |e|
+post swap av[i] is : |e|
+post swap av[j] is : |f|
+pre swap av[i] is : |e|
+pre swap av[j] is : |d|
+post swap av[i] is : |d|
+post swap av[j] is : |e|
+pre swap av[i] is : |d|
+pre swap av[j] is : |b|
+post swap av[i] is : |b|
+post swap av[j] is : |d|
+pre swap av[i] is : |b|
+pre swap av[j] is : |a|
+post swap av[i] is : |a|
+post swap av[j] is : |b|
+pre swap av[i] is : |a|
+pre swap av[j] is : |9|
+post swap av[i] is : |9|
+post swap av[j] is : |a|
+pre swap av[i] is : |9|
+pre swap av[j] is : |8|
+post swap av[i] is : |8|
+post swap av[j] is : |9|
+pre swap av[i] is : |8|
+pre swap av[j] is : |7|
+post swap av[i] is : |7|
+post swap av[j] is : |8|
+IM OUT /// av[i] is : |7|
+pre swap av[i] is : |r|
+pre swap av[j] is : |op|
+post swap av[i] is : |op|
+post swap av[j] is : |r|
+pre swap av[i] is : |op|
+pre swap av[j] is : |n|
+post swap av[i] is : |n|
+post swap av[j] is : |op|
+pre swap av[i] is : |n|
+pre swap av[j] is : |fh|
+post swap av[i] is : |fh|
+post swap av[j] is : |n|
+bonjour
+pre swap av[i] is : |fh|
+pre swap av[j] is : |f|
+post swap av[i] is : |f|
+post swap av[j] is : |fh|
+bonjour
+pre swap av[i] is : |f|
+pre swap av[j] is : |e|
+post swap av[i] is : |e|
+post swap av[j] is : |f|
+pre swap av[i] is : |e|
+pre swap av[j] is : |d|
+post swap av[i] is : |d|
+post swap av[j] is : |e|
+pre swap av[i] is : |d|
+pre swap av[j] is : |b|
+post swap av[i] is : |b|
+post swap av[j] is : |d|
+pre swap av[i] is : |b|
+pre swap av[j] is : |a|
+post swap av[i] is : |a|
+post swap av[j] is : |b|
+pre swap av[i] is : |a|
+pre swap av[j] is : |9|
+post swap av[i] is : |9|
+post swap av[j] is : |a|
+pre swap av[i] is : |9|
+pre swap av[j] is : |8|
+post swap av[i] is : |8|
+post swap av[j] is : |9|
+IM OUT /// av[i] is : |8|
+bonjour
+pre swap av[i] is : |th|
+pre swap av[j] is : |t|
+post swap av[i] is : |t|
+post swap av[j] is : |th|
+pre swap av[i] is : |t|
+pre swap av[j] is : |r|
+post swap av[i] is : |r|
+post swap av[j] is : |t|
+pre swap av[i] is : |r|
+pre swap av[j] is : |op|
+post swap av[i] is : |op|
+post swap av[j] is : |r|
+pre swap av[i] is : |op|
+pre swap av[j] is : |n|
+post swap av[i] is : |n|
+post swap av[j] is : |op|
+pre swap av[i] is : |n|
+pre swap av[j] is : |m|
+post swap av[i] is : |m|
+post swap av[j] is : |n|
+pre swap av[i] is : |m|
+pre swap av[j] is : |fh|
+post swap av[i] is : |fh|
+post swap av[j] is : |m|
+bonjour
+pre swap av[i] is : |fh|
+pre swap av[j] is : |f|
+post swap av[i] is : |f|
+post swap av[j] is : |fh|
+bonjour
+pre swap av[i] is : |f|
+pre swap av[j] is : |e|
+post swap av[i] is : |e|
+post swap av[j] is : |f|
+pre swap av[i] is : |e|
+pre swap av[j] is : |d|
+post swap av[i] is : |d|
+post swap av[j] is : |e|
+pre swap av[i] is : |d|
+pre swap av[j] is : |b|
+post swap av[i] is : |b|
+post swap av[j] is : |d|
+pre swap av[i] is : |b|
+pre swap av[j] is : |a|
+post swap av[i] is : |a|
+post swap av[j] is : |b|
+pre swap av[i] is : |a|
+pre swap av[j] is : |9|
+post swap av[i] is : |9|
+post swap av[j] is : |a|
+IM OUT /// av[i] is : |9|
+bonjour
+pre swap av[i] is : |th|
+pre swap av[j] is : |t|
+post swap av[i] is : |t|
+post swap av[j] is : |th|
+bonjour
+pre swap av[i] is : |t|
+pre swap av[j] is : |r|
+post swap av[i] is : |r|
+post swap av[j] is : |t|
+pre swap av[i] is : |r|
+pre swap av[j] is : |op|
+post swap av[i] is : |op|
+post swap av[j] is : |r|
+pre swap av[i] is : |op|
+pre swap av[j] is : |n|
+post swap av[i] is : |n|
+post swap av[j] is : |op|
+pre swap av[i] is : |n|
+pre swap av[j] is : |m|
+post swap av[i] is : |m|
+post swap av[j] is : |n|
+pre swap av[i] is : |m|
+pre swap av[j] is : |fh|
+post swap av[i] is : |fh|
+post swap av[j] is : |m|
+bonjour
+pre swap av[i] is : |fh|
+pre swap av[j] is : |f|
+post swap av[i] is : |f|
+post swap av[j] is : |fh|
+bonjour
+pre swap av[i] is : |f|
+pre swap av[j] is : |e|
+post swap av[i] is : |e|
+post swap av[j] is : |f|
+pre swap av[i] is : |e|
+pre swap av[j] is : |d|
+post swap av[i] is : |d|
+post swap av[j] is : |e|
+pre swap av[i] is : |d|
+pre swap av[j] is : |b|
+post swap av[i] is : |b|
+post swap av[j] is : |d|
+pre swap av[i] is : |b|
+pre swap av[j] is : |a|
+post swap av[i] is : |a|
+post swap av[j] is : |b|
+IM OUT /// av[i] is : |a|
+pre swap av[i] is : |yr|
+pre swap av[j] is : |th|
+post swap av[i] is : |th|
+post swap av[j] is : |yr|
+bonjour
+pre swap av[i] is : |th|
+pre swap av[j] is : |t|
+post swap av[i] is : |t|
+post swap av[j] is : |th|
+bonjour
+pre swap av[i] is : |t|
+pre swap av[j] is : |r|
+post swap av[i] is : |r|
+post swap av[j] is : |t|
+pre swap av[i] is : |r|
+pre swap av[j] is : |op|
+post swap av[i] is : |op|
+post swap av[j] is : |r|
+pre swap av[i] is : |op|
+pre swap av[j] is : |n|
+post swap av[i] is : |n|
+post swap av[j] is : |op|
+pre swap av[i] is : |n|
+pre swap av[j] is : |m|
+post swap av[i] is : |m|
+post swap av[j] is : |n|
+pre swap av[i] is : |m|
+pre swap av[j] is : |fh|
+post swap av[i] is : |fh|
+post swap av[j] is : |m|
+bonjour
+pre swap av[i] is : |fh|
+pre swap av[j] is : |f|
+post swap av[i] is : |f|
+post swap av[j] is : |fh|
+bonjour
+pre swap av[i] is : |f|
+pre swap av[j] is : |e|
+post swap av[i] is : |e|
+post swap av[j] is : |f|
+pre swap av[i] is : |e|
+pre swap av[j] is : |d|
+post swap av[i] is : |d|
+post swap av[j] is : |e|
+pre swap av[i] is : |d|
+pre swap av[j] is : |b|
+post swap av[i] is : |b|
+post swap av[j] is : |d|
+IM OUT /// av[i] is : |b|
+pre swap av[i] is : |yr|
+pre swap av[j] is : |th|
+post swap av[i] is : |th|
+post swap av[j] is : |yr|
+bonjour
+pre swap av[i] is : |th|
+pre swap av[j] is : |t|
+post swap av[i] is : |t|
+post swap av[j] is : |th|
+bonjour
+pre swap av[i] is : |t|
+pre swap av[j] is : |r|
+post swap av[i] is : |r|
+post swap av[j] is : |t|
+pre swap av[i] is : |r|
+pre swap av[j] is : |op|
+post swap av[i] is : |op|
+post swap av[j] is : |r|
+pre swap av[i] is : |op|
+pre swap av[j] is : |n|
+post swap av[i] is : |n|
+post swap av[j] is : |op|
+pre swap av[i] is : |n|
+pre swap av[j] is : |m|
+post swap av[i] is : |m|
+post swap av[j] is : |n|
+pre swap av[i] is : |m|
+pre swap av[j] is : |fh|
+post swap av[i] is : |fh|
+post swap av[j] is : |m|
+bonjour
+pre swap av[i] is : |fh|
+pre swap av[j] is : |f|
+post swap av[i] is : |f|
+post swap av[j] is : |fh|
+bonjour
+pre swap av[i] is : |f|
+pre swap av[j] is : |e|
+post swap av[i] is : |e|
+post swap av[j] is : |f|
+pre swap av[i] is : |e|
+pre swap av[j] is : |d|
+post swap av[i] is : |d|
+post swap av[j] is : |e|
+IM OUT /// av[i] is : |d|
+pre swap av[i] is : |yr|
+pre swap av[j] is : |th|
+post swap av[i] is : |th|
+post swap av[j] is : |yr|
+bonjour
+pre swap av[i] is : |th|
+pre swap av[j] is : |t|
+post swap av[i] is : |t|
+post swap av[j] is : |th|
+bonjour
+pre swap av[i] is : |t|
+pre swap av[j] is : |r|
+post swap av[i] is : |r|
+post swap av[j] is : |t|
+pre swap av[i] is : |r|
+pre swap av[j] is : |op|
+post swap av[i] is : |op|
+post swap av[j] is : |r|
+pre swap av[i] is : |op|
+pre swap av[j] is : |n|
+post swap av[i] is : |n|
+post swap av[j] is : |op|
+pre swap av[i] is : |n|
+pre swap av[j] is : |m|
+post swap av[i] is : |m|
+post swap av[j] is : |n|
+pre swap av[i] is : |m|
+pre swap av[j] is : |fh|
+post swap av[i] is : |fh|
+post swap av[j] is : |m|
+bonjour
+pre swap av[i] is : |fh|
+pre swap av[j] is : |f|
+post swap av[i] is : |f|
+post swap av[j] is : |fh|
+bonjour
+pre swap av[i] is : |f|
+pre swap av[j] is : |e|
+post swap av[i] is : |e|
+post swap av[j] is : |f|
+IM OUT /// av[i] is : |e|
+pre swap av[i] is : |yr|
+pre swap av[j] is : |th|
+post swap av[i] is : |th|
+post swap av[j] is : |yr|
+bonjour
+pre swap av[i] is : |th|
+pre swap av[j] is : |t|
+post swap av[i] is : |t|
+post swap av[j] is : |th|
+bonjour
+pre swap av[i] is : |t|
+pre swap av[j] is : |r|
+post swap av[i] is : |r|
+post swap av[j] is : |t|
+pre swap av[i] is : |r|
+pre swap av[j] is : |op|
+post swap av[i] is : |op|
+post swap av[j] is : |r|
+pre swap av[i] is : |op|
+pre swap av[j] is : |n|
+post swap av[i] is : |n|
+post swap av[j] is : |op|
+pre swap av[i] is : |n|
+pre swap av[j] is : |m|
+post swap av[i] is : |m|
+post swap av[j] is : |n|
+pre swap av[i] is : |m|
+pre swap av[j] is : |fh|
+post swap av[i] is : |fh|
+post swap av[j] is : |m|
+bonjour
+pre swap av[i] is : |fh|
+pre swap av[j] is : |f|
+post swap av[i] is : |f|
+post swap av[j] is : |fh|
+bonjour
+IM OUT /// av[i] is : |f|
+pre swap av[i] is : |yr|
+pre swap av[j] is : |th|
+post swap av[i] is : |th|
+post swap av[j] is : |yr|
+bonjour
+pre swap av[i] is : |th|
+pre swap av[j] is : |t|
+post swap av[i] is : |t|
+post swap av[j] is : |th|
+bonjour
+pre swap av[i] is : |t|
+pre swap av[j] is : |r|
+post swap av[i] is : |r|
+post swap av[j] is : |t|
+pre swap av[i] is : |r|
+pre swap av[j] is : |op|
+post swap av[i] is : |op|
+post swap av[j] is : |r|
+pre swap av[i] is : |op|
+pre swap av[j] is : |n|
+post swap av[i] is : |n|
+post swap av[j] is : |op|
+pre swap av[i] is : |n|
+pre swap av[j] is : |m|
+post swap av[i] is : |m|
+post swap av[j] is : |n|
+pre swap av[i] is : |m|
+pre swap av[j] is : |fh|
+post swap av[i] is : |fh|
+post swap av[j] is : |m|
+IM OUT /// av[i] is : |fh|
+pre swap av[i] is : |yr|
+pre swap av[j] is : |th|
+post swap av[i] is : |th|
+post swap av[j] is : |yr|
+bonjour
+pre swap av[i] is : |th|
+2
+4
+5
+6
+7
+8
+9
+a
+b
+d
+e
+f
+fh
+m
+n
+o
+op
+p
+r
+t
+th
+u
+yr
+pre swap av[j] is : |t|
+post swap av[i] is : |t|
+post swap av[j] is : |th|
+bonjour
+pre swap av[i] is : |t|
+pre swap av[j] is : |r|
+post swap av[i] is : |r|
+post swap av[j] is : |t|
+pre swap av[i] is : |r|
+pre swap av[j] is : |op|
+post swap av[i] is : |op|
+post swap av[j] is : |r|
+pre swap av[i] is : |op|
+pre swap av[j] is : |n|
+post swap av[i] is : |n|
+post swap av[j] is : |op|
+pre swap av[i] is : |n|
+pre swap av[j] is : |m|
+post swap av[i] is : |m|
+post swap av[j] is : |n|
+IM OUT /// av[i] is : |m|
+pre swap av[i] is : |yr|
+pre swap av[j] is : |th|
+post swap av[i] is : |th|
+post swap av[j] is : |yr|
+bonjour
+pre swap av[i] is : |th|
+pre swap av[j] is : |t|
+post swap av[i] is : |t|
+post swap av[j] is : |th|
+bonjour
+pre swap av[i] is : |t|
+pre swap av[j] is : |r|
+post swap av[i] is : |r|
+post swap av[j] is : |t|
+pre swap av[i] is : |r|
+pre swap av[j] is : |op|
+post swap av[i] is : |op|
+post swap av[j] is : |r|
+pre swap av[i] is : |op|
+pre swap av[j] is : |n|
+post swap av[i] is : |n|
+post swap av[j] is : |op|
+IM OUT /// av[i] is : |n|
+pre swap av[i] is : |yr|
+pre swap av[j] is : |th|
+post swap av[i] is : |th|
+post swap av[j] is : |yr|
+bonjour
+pre swap av[i] is : |th|
+pre swap av[j] is : |t|
+post swap av[i] is : |t|
+post swap av[j] is : |th|
+bonjour
+pre swap av[i] is : |t|
+pre swap av[j] is : |r|
+post swap av[i] is : |r|
+post swap av[j] is : |t|
+pre swap av[i] is : |r|
+pre swap av[j] is : |op|
+post swap av[i] is : |op|
+post swap av[j] is : |r|
+bonjour
+pre swap av[i] is : |op|
+pre swap av[j] is : |o|
+post swap av[i] is : |o|
+post swap av[j] is : |op|
+bonjour
+IM OUT /// av[i] is : |o|
+pre swap av[i] is : |yr|
+pre swap av[j] is : |th|
+post swap av[i] is : |th|
+post swap av[j] is : |yr|
+bonjour
+pre swap av[i] is : |th|
+pre swap av[j] is : |t|
+post swap av[i] is : |t|
+post swap av[j] is : |th|
+bonjour
+pre swap av[i] is : |t|
+pre swap av[j] is : |r|
+post swap av[i] is : |r|
+post swap av[j] is : |t|
+pre swap av[i] is : |r|
+pre swap av[j] is : |p|
+post swap av[i] is : |p|
+post swap av[j] is : |r|
+pre swap av[i] is : |p|
+pre swap av[j] is : |op|
+post swap av[i] is : |op|
+post swap av[j] is : |p|
+IM OUT /// av[i] is : |op|
+pre swap av[i] is : |yr|
+pre swap av[j] is : |th|
+post swap av[i] is : |th|
+post swap av[j] is : |yr|
+bonjour
+pre swap av[i] is : |th|
+pre swap av[j] is : |t|
+post swap av[i] is : |t|
+post swap av[j] is : |th|
+bonjour
+pre swap av[i] is : |t|
+pre swap av[j] is : |r|
+post swap av[i] is : |r|
+post swap av[j] is : |t|
+pre swap av[i] is : |r|
+pre swap av[j] is : |p|
+post swap av[i] is : |p|
+post swap av[j] is : |r|
+IM OUT /// av[i] is : |p|
+pre swap av[i] is : |yr|
+pre swap av[j] is : |th|
+post swap av[i] is : |th|
+post swap av[j] is : |yr|
+bonjour
+pre swap av[i] is : |th|
+pre swap av[j] is : |t|
+post swap av[i] is : |t|
+post swap av[j] is : |th|
+bonjour
+pre swap av[i] is : |t|
+pre swap av[j] is : |r|
+post swap av[i] is : |r|
+post swap av[j] is : |t|
+IM OUT /// av[i] is : |r|
+pre swap av[i] is : |yr|
+pre swap av[j] is : |th|
+post swap av[i] is : |th|
+post swap av[j] is : |yr|
+bonjour
+pre swap av[i] is : |th|
+pre swap av[j] is : |t|
+post swap av[i] is : |t|
+post swap av[j] is : |th|
+bonjour
+IM OUT /// av[i] is : |t|
+pre swap av[i] is : |yr|
+pre swap av[j] is : |th|
+post swap av[i] is : |th|
+post swap av[j] is : |yr|
+IM OUT /// av[i] is : |th|
+pre swap av[i] is : |yr|
+pre swap av[j] is : |u|
+post swap av[i] is : |u|
+post swap av[j] is : |yr|
+IM OUT /// av[i] is : |u|
+IM OUT /// av[i] is : |yr|
