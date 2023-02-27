@@ -15,22 +15,11 @@ int	ft_any(char **tab, int (*f)(char*))
 	int i;
 
 	i = 0;
-	while(i )
+	while (tab[i])
 	{
-
+		if (f(tab[i]))
+			return (1);
+		i++;
 	}
 	return (0);
-}
-
-int ft_oups(char *b)
-{
-	
-}
-
-
-#include <stdio.h>
-int main(int ac, char **av)
-{
-
-	printf("%d\n", ft_any(av, ft_oups));
 }
