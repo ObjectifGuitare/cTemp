@@ -20,7 +20,6 @@ typedef struct s_calc
 	int		a;
 	char	op;
 	int		b;
-	int		result;
 }	t_calc;
 
 void	ft_putstr(char *str);

@@ -3,26 +3,16 @@ CC = gcc -Wall -Wextra -Werror
 SRCSDIR = srcs
 INCDIR = includes
 
-FUNC = $(SRCSDIR)/ft_putchar.c $(SRCSDIR)/ft_swap.c $(SRCSDIR)/ft_putstr.c $(SRCSDIR)/ft_strlen.c $(SRCSDIR)/ft_strcmp.c
+FUNC = $(SRCSDIR)/main.c $(SRCSDIR)/ft_atoi.c $(SRCSDIR)/ft_putnbr.c $(SRCSDIR)/operators.c
 
-
-
-NAME = libft.a
-
-OBJECTS = $(FUNC:.c=.o)
+NAME = do-op
 
 all: $(NAME)
 
-$(NAME): $(OBJECTS)
-	ar rcs $(NAME) $(OBJECTS)
-
-$(OBJECTS): $(FUNC) includes/ft.h
-	$(CC) -c $< -o $@ -I $(INCDIR)
+$(NAME): $(FUNC) includes/doop.h
+	$(CC) $(FUNC) -o $(NAME) -I $(INCDIR)
 
 clean:
-	rm -f $(OBJECTS)
-
-fclean: clean
 	rm -f $(NAME)
 
-re: fclean all
+re: clean all
