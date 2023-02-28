@@ -18,7 +18,7 @@
 typedef struct s_calc
 {
 	int		a;
-	char	op;
+	int		op;
 	int		b;
 }	t_calc;
 
@@ -34,7 +34,7 @@ int		ft_is_space(char c);
 void	ft_putchar(char c);
 void	ft_putnbr(int nb);
 int		ft_strlen(char *str);
-char	check_op(char *str);
-void	ft_format(int a, int b, char op);
+int		check_op(char *str);
+int		ft_format(int b, int op);
 
 #endif

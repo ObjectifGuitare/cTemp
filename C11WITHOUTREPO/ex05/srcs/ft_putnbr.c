@@ -9,7 +9,7 @@
 /*   Updated: 2023/02/14 12:15:01 by sepatez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
+#include "doop.h"
 
 void	ft_putchar(char c)
 {

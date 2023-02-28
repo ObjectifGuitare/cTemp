@@ -22,40 +22,40 @@ int	ft_strlen(char *str)
 	return (i);
 }
 
-char	check_op(char *str)
+int	check_op(char *str)
 {
 	if (ft_strlen(str) != 1)
-		return ('L');
+		return (-1);
 	if (*str == '+')
-		return (*str);
+		return (0);
 	if (*str == '-')
-		return (*str);
+		return (1);
 	if (*str == '/')
-		return (*str);
+		return (2);
 	if (*str == '%')
-		return (*str);
+		return (3);
 	return ('L');
 }
 
-void	ft_format(int a, int b, char op)
+int	ft_format(int b, int op)
 {
-	if (op == '+')
-		ft_putnbr(a + b);
-	else if (op == '-')
-		ft_putnbr(a - b);
-	else if (op == '/' && b != 0)
-		ft_putnbr(a / b);
-	else if (op == '%' && b != 0)
-		ft_putnbr(a % b);
-	else if (op == '/' && b == 0)
-		ft_putstr("Stop : division by zero");
-	else if (op == '%' && b == 0)
-		ft_putstr("Stop : modulo by zero");
+	if (op == 2 && b == 0)
+	{
+		ft_putstr("Stop : division by zero\n");
+		return (0);
+	}
+	else if (op == 3 && b == 0)
+	{
+		ft_putstr("Stop : modulo by zero\n");
+		return (0);
+	}
+	return (1);
 }
 
 int	main(int ac, char **av)
 {
 	t_calc	calc;
+	int		(*doop[4])(int a, int b);
 
 	if (ac != 4)
 		return (0);
@@ -65,9 +65,15 @@ int	main(int ac, char **av)
 		write(1, "0\n", 2);
 		return (0);
 	}
+	doop[0] = &ft_plus;
+	doop[1] = &ft_minus;
+	doop[2] = &ft_divide;
+	doop[3] = &ft_modulo;
 	calc.a = ft_atoi(av[1]);
 	calc.b = ft_atoi(av[3]);
-	ft_format(calc.a, calc.b, calc.op);
+	if (!ft_format(calc.b, calc.op))
+		return (0);
+	ft_putnbr(doop[calc.op](calc.a, calc.b));
 	write(1, "\n", 1);
 	return (0);
 }
