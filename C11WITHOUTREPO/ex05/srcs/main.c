@@ -12,9 +12,9 @@
 
 #include "doop.h"
 
-int ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (str[i])
@@ -22,10 +22,10 @@ int ft_strlen(char *str)
 	return (i);
 }
 
-char    check_op(char *str)
+char	check_op(char *str)
 {
 	if (ft_strlen(str) != 1)
-		return 'L';
+		return ('L');
 	if (*str == '+')
 		return (*str);
 	if (*str == '-')
@@ -34,10 +34,10 @@ char    check_op(char *str)
 		return (*str);
 	if (*str == '%')
 		return (*str);
-	return 'L';
+	return ('L');
 }
 
-void ft_format(int a, int b, char op)
+void	ft_format(int a, int b, char op)
 {
 	if (op == '+')
 		ft_putnbr(a + b);
@@ -53,13 +53,12 @@ void ft_format(int a, int b, char op)
 		ft_putstr("Stop : modulo by zero");
 }
 
-
-int main(int ac, char **av)
+int	main(int ac, char **av)
 {
 	t_calc	calc;
 
 	if (ac != 4)
-		return 0;
+		return (0);
 	calc.op = check_op(av[2]);
 	if (calc.op == 'L')
 	{
@@ -70,5 +69,5 @@ int main(int ac, char **av)
 	calc.b = ft_atoi(av[3]);
 	ft_format(calc.a, calc.b, calc.op);
 	write(1, "\n", 1);
-	return 0;
+	return (0);
 }

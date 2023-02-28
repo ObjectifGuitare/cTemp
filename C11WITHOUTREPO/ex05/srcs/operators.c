@@ -12,34 +12,31 @@
 
 #include "doop.h"
 
-void    ft_putstr(char *str)
+void	ft_putstr(char *str)
 {
-    while(*str)
-    {
-        write(1, str, 1);
-        str++;
-    }
+	while (*str)
+	{
+		write(1, str, 1);
+		str++;
+	}
 }
 
-int ft_plus(int a, int b)
+int	ft_plus(int a, int b)
 {
-    return (a + b);
+	return (a + b);
 }
 
-
-int ft_minus(int a, int b)
+int	ft_minus(int a, int b)
 {
-    return (a - b);
+	return (a - b);
 }
 
-
-int ft_divide(int a, int b)
+int	ft_divide(int a, int b)
 {
-    return (a / b);
+	return (a / b);
 }
 
-
-int ft_modulo(int a, int b)
+int	ft_modulo(int a, int b)
 {
-    return (a % b);
+	return (a % b);
 }
