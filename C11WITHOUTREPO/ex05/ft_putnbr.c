@@ -1,45 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   operators.c                                        :+:      :+:    :+:   */
+/*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sepatez <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/02/27 17:04:09 by sepatez           #+#    #+#             */
-/*   Updated: 2023/02/27 17:04:12 by sepatez          ###   ########.fr       */
+/*   Created: 2023/02/14 11:23:42 by sepatez           #+#    #+#             */
+/*   Updated: 2023/02/14 12:15:01 by sepatez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include <unistd.h>
 
-#include "doop.h"
-
-void    ft_putstr(char *str)
+void	ft_putchar(char c)
 {
-    while(*str)
-    {
-        write(1, str, 1);
-        str++;
-    }
+	write(1, &c, 1);
 }
 
-int ft_plus(int a, int b)
+void	ft_putnbr(int nb)
 {
-    return (a + b);
-}
+	long long	long_nb;
 
-
-int ft_minus(int a, int b)
-{
-    return (a - b);
-}
-
-
-int ft_divide(int a, int b)
-{
-    return (a / b);
-}
-
-
-int ft_modulo(int a, int b)
-{
-    return (a % b);
+	long_nb = (long long) nb;
+	if (nb < 0)
+	{
+		long_nb = -long_nb;
+		ft_putchar('-');
+	}
+	if (long_nb > 9)
+	{
+		ft_putnbr(long_nb / 10);
+		long_nb %= 10;
+	}
+	ft_putchar(long_nb + '0');
 }

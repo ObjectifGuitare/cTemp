@@ -22,11 +22,6 @@ int ft_strlen(char *str)
 	return (i);
 }
 
-int check_errors()
-{
-
-}
-
 char    check_op(char *str)
 {
 	if (ft_strlen(str) != 1)
@@ -42,18 +37,38 @@ char    check_op(char *str)
 	return 'L';
 }
 
+void ft_format(int a, int b, char op)
+{
+	if (op == '+')
+		ft_putnbr(a + b);
+	else if (op == '-')
+		ft_putnbr(a - b);
+	else if (op == '/' && b != 0)
+		ft_putnbr(a / b);
+	else if (op == '%' && b != 0)
+		ft_putnbr(a % b);
+	else if (op == '/' && b == 0)
+		ft_putstr("Stop : division by zero");
+	else if (op == '%' && b == 0)
+		ft_putstr("Stop : modulo by zero");
+}
+
+
 int main(int ac, char **av)
 {
-	char    op;
+	t_calc	calc;
 
 	if (ac != 4)
 		return 0;
-	if (check_errors)
-		return ;
-	op = check_op(av[2]);
-	if(op == 'L')
+	calc.op = check_op(av[2]);
+	if (calc.op == 'L')
 	{
 		write(1, "0\n", 2);
 		return (0);
 	}
+	calc.a = ft_atoi(av[1]);
+	calc.b = ft_atoi(av[3]);
+	ft_format(calc.a, calc.b, calc.op);
+	write(1, "\n", 1);
+	return 0;
 }
