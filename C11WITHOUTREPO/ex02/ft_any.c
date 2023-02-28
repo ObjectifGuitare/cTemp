@@ -12,7 +12,7 @@
 
 int	ft_any(char **tab, int (*f)(char*))
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (tab[i])
