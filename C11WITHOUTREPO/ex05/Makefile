@@ -3,7 +3,10 @@ CC = gcc -Wall -Wextra -Werror
 SRCSDIR = srcs
 INCDIR = includes
 
-FUNC = $(SRCSDIR)/main.c $(SRCSDIR)/ft_atoi.c $(SRCSDIR)/ft_putnbr.c $(SRCSDIR)/operators.c
+FUNC = $(SRCSDIR)/main.c\
+		$(SRCSDIR)/ft_atoi.c\
+		$(SRCSDIR)/ft_putnbr.c\
+		$(SRCSDIR)/operators.c
 
 NAME = do-op
 
