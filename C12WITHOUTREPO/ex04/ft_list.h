@@ -1,28 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_boolean.h                                       :+:      :+:    :+:   */
+/*   ft_list.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sepatez <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/02/22 22:13:29 by sepatez           #+#    #+#             */
-/*   Updated: 2023/02/22 22:13:31 by sepatez          ###   ########.fr       */
+/*   Created: 2023/03/01 04:54:20 by sepatez           #+#    #+#             */
+/*   Updated: 2023/03/01 04:54:22 by sepatez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_BOOLEAN_H
-# define FT_BOOLEAN_H
+#ifndef FT_LIST_H
+# define FT_LIST_H
 
-# define TRUE 1
-# define FALSE 0
-# define EVEN(nbr) (nbr % 2 == 0)
-# define EVEN_MSG "I have an even number of arguments.\n"
-# define ODD_MSG "I have an odd number of arguments.\n"
-# define SUCCESS 0
-# include <unistd.h>
+typedef struct s_list
+{
+	struct s_list	*next;
+	void			*data;
+}	t_list;
 
-typedef int	t_bool;
-void	ft_putstr(char *str);
-t_bool	ft_is_even(int nbr);
+t_list	*ft_list_last(t_list *begin_list);
 
 #endif

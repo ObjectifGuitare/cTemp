@@ -3,7 +3,9 @@ CC = gcc -Wall -Wextra -Werror
 SRCSDIR = srcs
 INCDIR = includes
 
-FUNC = $(SRCSDIR)/ft_putchar.c $(SRCSDIR)/ft_swap.c $(SRCSDIR)/ft_putstr.c $(SRCSDIR)/ft_strlen.c $(SRCSDIR)/ft_strcmp.c
+FUNC = $(SRCSDIR)/ft_putchar.c $(SRCSDIR)/ft_swap.c\
+		$(SRCSDIR)/ft_putstr.c $(SRCSDIR)/ft_strlen.c\
+		$(SRCSDIR)/ft_strcmp.c
 
 
 
