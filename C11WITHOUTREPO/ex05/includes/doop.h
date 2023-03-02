@@ -27,6 +27,7 @@ int		ft_plus(int a, int b);
 int		ft_minus(int a, int b);
 int		ft_divide(int a, int b);
 int		ft_modulo(int a, int b);
+int		ft_multiply(int a, int b);
 int		ft_atoi(char *str);
 int		ft_is_numeric(char c);
 int		ft_turn_to_negative(int result, int minuses);

@@ -12,6 +12,15 @@
 
 #include "doop.h"
 
+void	ft_putstr(char *str)
+{
+	while (*str)
+	{
+		write(1, str, 1);
+		str++;
+	}
+}
+
 int	ft_strlen(char *str)
 {
 	int	i;
@@ -34,7 +43,9 @@ int	check_op(char *str)
 		return (2);
 	if (*str == '%')
 		return (3);
-	return ('L');
+	if (*str == '*')
+		return (4);
+	return (-1);
 }
 
 int	ft_format(int b, int op)
@@ -55,12 +66,12 @@ int	ft_format(int b, int op)
 int	main(int ac, char **av)
 {
 	t_calc	calc;
-	int		(*doop[4])(int a, int b);
+	int		(*doop[5])(int a, int b);
 
 	if (ac != 4)
 		return (0);
 	calc.op = check_op(av[2]);
-	if (calc.op == 'L')
+	if (calc.op == -1)
 	{
 		write(1, "0\n", 2);
 		return (0);
@@ -69,6 +80,7 @@ int	main(int ac, char **av)
 	doop[1] = &ft_minus;
 	doop[2] = &ft_divide;
 	doop[3] = &ft_modulo;
+	doop[4] = &ft_multiply;
 	calc.a = ft_atoi(av[1]);
 	calc.b = ft_atoi(av[3]);
 	if (!ft_format(calc.b, calc.op))
